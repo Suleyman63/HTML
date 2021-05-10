@@ -1,0 +1,31 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5px;
+}
+/* solid | double | dashed*/
+/* ciygi kalinligi, cizgi turu renk*/
+
+.tablo {
+  border: 6px solid grey;
+  border-collapse: collapse;
+  width: 60%; /* yuzdelik dilime gore hesaplar*/
+  margin-left: auto; /*sol ve sagdan otomatik olarak hizalama yapar*/
+  margin-right: auto;
+}
+/* firden fazla atribute e ayni stillendirme yapilacaksa virgul ile ayrilarak birlikte stylendirilebilir*/
+
+th,
+td {
+  border: 2px solid grey;
+}
+th {
+  background-color: cornflowerblue;
+}
+tr {
+  background-color: darkgray;
+}

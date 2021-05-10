@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | TABLO EKLE | CSS Inline</title>
+    <style>
+      /* BU alan CSS kodları içerir.. */
+      /*
+       CSS Selector ler ile istenilen HTML elemanına stillendirme yapılablir */
+      /* style etiketi ile yapılan sitllendirmeler sadece bu dosya için geçerli olur. 
+      Eğer tüm proje için global bir stillendirme istersek o zaman harici bir .CSS dosyası oluşturmak ve bu dosyayı HTML'e import etmek gerekir
+      */
+      * {
+        text-align: center;
+      }
+      h1 {
+        color: green;
+        font-size: 25px;
+        font-family: "Franlin GOTHIC Medium", "Arial Marrow", Arial, sans-serif;
+        text-align: center;
+        margin-top: 30px;
+        text-align: center;
+      }
+      p {
+        color: blue;
+      }
+      #p1 {
+        color: brown;
+      }
+      .p2 {
+        color: chartreuse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TABLO EKLEME</h1>
+    <h1>CSS stillendirme</h1>
+    <p id="p1">Bu bir paragrafdir</p>
+    <p>bu da baska bir paragrafdir</p>
+    <!-- class sektoru ise grup grup sekillendirmesi icin kullanilmaktadir -->
+    <p class="p2">bu da baska bir paragrafdir</p>
+    <p>CSS HTML e gore daha fazla detay icermektedir</p>
+  </body>
+</html>
