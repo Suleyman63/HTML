@@ -3,22 +3,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+    />
     <link rel="stylesheet" href="style3.css" />
     <title>Formlar</title>
   </head>
   <body>
     <h1>FORMLAR</h1>
     <form action="kaydet.php">
-      <label for="">Adiniz</label>
+      <label class="label" for="">Adiniz</label>
       <input
         class="input"
         id="ad"
         type="text"
+        maxlength="20"
         placeholder="isim giriniz"
       /><br />
 
-      <label for="">Sifreniz:</label>
+      <label class="label" for="">Sifreniz:</label>
       <input
         class="input"
         id="sifre"
@@ -26,9 +30,10 @@
         name="ad"
         value=""
         required=""
+        placeholder="Sifre giriniz"
       />
       <br />
-      <label for="sayi"> Yasiniz:</label>
+      <label class="label" for="sayi"> Yasiniz:</label>
       <input
         class="input"
         id="sayi"
@@ -37,13 +42,36 @@
         value=""
         min="0"
         max="100"
+        placeholder="Yasinizi giriniz"
       />
       <br />
-      <label for="email"> Email</label>
-      <input class="input" id="email" type="email" name="email" value="" />
+
+      <label class="label" for="email"> Email:</label>
+      <input
+        class="input"
+        id="email"
+        type="email"
+        name="email"
+        value=""
+        placeholder="Emailnizi giriniz"
+      />
       <br />
-      <input type="submit" value="Gonder" />
-      <input type="button" value="temizle" />
+      <label class="label" for="adres">Adres:</label>
+      <textarea
+        name="text-alanı"
+        id="adres"
+        rows="10"
+        placeholder="Adresinizi giriniz"
+      ></textarea>
+
+      <br />
+
+      <button class="btn" type="submit">
+        <i class="far fa-save"></i>Gonder
+      </button>
+      <button class="btn" type="reset">
+        <i class="fas fa-trash-alt"></i>Temizle
+      </button>
     </form>
   </body>
 </html>

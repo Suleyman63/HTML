@@ -11,10 +11,11 @@ h1 {
 /* ciygi kalinligi, cizgi turu renk*/
 
 .tablo {
-  border: 6px solid grey;
+  border: 4px solid grey;
   border-collapse: collapse;
-  width: 60%; /* yuzdelik dilime gore hesaplar*/
-  margin-left: auto; /*sol ve sagdan otomatik olarak hizalama yapar*/
+  width: 50%; /* Yüzdelik dilim sayfaya göre hesaplanır. */
+  margin-left: auto; /* Sol ve Sağdan otomatik boşluk koyarak nesneler ortaya
+                       hizalanabilir. */
   margin-right: auto;
 }
 /* firden fazla atribute e ayni stillendirme yapilacaksa virgul ile ayrilarak birlikte stylendirilebilir*/

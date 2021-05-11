@@ -1,9 +1,58 @@
+/* nunito google import yaptik*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+/*  nunito font ve font awesome sitelerinden zardim alarak stil ve obje uretebiliriz */
 * {
   text-align: center;
-  background-color: antiquewhite;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
 }
 .input {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   width: 200px;
-  height: 25px;
+  height: 30px;
+}
+.label {
+  display: block;
+  color: crimson;
+  margin-right: 20px;
+}
+/* box-sizing CSS de kullanilan kutu modelini secmek icin kullanilir genelde
+borde-box modeli tercih edilir*/
+
+.btn {
+  font-size: 16px;
+  color: white;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border: 2px solid rgb(230, 233, 230);
+  border-radius: 20px;
+  background-color: tomato;
+  cursor: pointer;
+}
+h1 {
+  margin-top: 50px;
+  color: crimson;
+}
+.btn:hover {
+  background: rgb(179, 4, 4);
+}
+.far,
+.fas {
+}
+i {
+  color: black;
+}
+textarea {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
