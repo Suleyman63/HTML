@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* top,right, bottom ,left */
+  /* margin: 200px 30px 200px 10px; */
+  margin: 30px 20px; /* üst-alt 30px, sağ-sol 200px */
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.header {
+  color: white;
+  background-color: red;
+  height: 50px;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px;
+  background: rgb(81, 81, 212);
+}
+
+.aside {
+  background: yellow;
+  float: left;
+  width: 25%;
+  height: 70%;
+}
+
+.main {
+  float: left;
+  width: 75%;
+  height: 70%;
+  background-color: antiquewhite;
+}
+
+.footer {
+  padding: 30px;
+  background: rgb(107, 103, 103);
+}
