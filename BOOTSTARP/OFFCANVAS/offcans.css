@@ -1,0 +1,21 @@
+* {
+  background-color: rgba(255, 192, 203, 0.93);
+  font-family: sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 50px;
+  margin-left: 70px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

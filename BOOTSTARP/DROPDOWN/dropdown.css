@@ -1,0 +1,18 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1623550925728-cb3d31fac0b2?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+}
+.navbar {
+  height: 80px;
+  background-color: #154286;
+}
+.navbar-brand {
+  font-size: 36px;
+}
+@media (max-width: 767.98px) {
+  .navbar {
+    height: 300px;
+  }
+}

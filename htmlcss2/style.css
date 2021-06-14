@@ -5,7 +5,7 @@
 h1 {
   color: brown;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 /* solid | double | dashed*/
 /* ciygi kalinligi, cizgi turu renk*/
@@ -25,8 +25,8 @@ td {
   border: 2px solid grey;
 }
 th {
-  background-color: cornflowerblue;
+  background-color: rgb(53, 88, 151);
 }
 tr {
-  background-color: darkgray;
+  background-color: rgb(202, 191, 191);
 }

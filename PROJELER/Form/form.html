@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>FORM DOLDURMA ve KAYIT</h1>
+    <form action="" method="post" enctype="multipart/form-data"></form>
+    <fieldset>
+      <legend>Sozlesme Onayi</legend>
+      
+      <input type="checkbox" id="onay" name="onay" value="1" required />
+      <label class="lab" for="onay">Asagidaki bilgilerin dogrulunu kabul ediyorum</label><br /><br>
+      <input type="submit" id="btnK" name="btnK" value="Formu Kaydet" />
+      <input type="submit" id="btnT" name="btnT" value="Formu Temizle" />
+      
+    </fieldset><br>
+    <fieldset>
+    <legend>Kullanici Bilgiler</legend>
+    <table border="1">
+      <tr>
+        <td>Form Guvenlik ID</td>
+        <td>
+          <input type="text" name="gID" id="gID" value="1234" disabled />
+          <input type="hidden" id="gID1" name="gID1" value="asfg" />
+        </td>
+      </tr>
+      <tr>
+        <td>Ad</td>
+        <td>
+          <input
+            type="text"
+            name="ad"
+            id="ad"
+            placeholder="adinizi giriniz"
+            required
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Soyad</td>
+        <td>
+          <input
+            type="text"
+            name="soyad"
+            id="soyad"
+            placeholder="soyadinizi giriniz"
+            required
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Yas</td>
+        <td>
+          <input
+            type="number"
+            min="18"
+            max="100"
+            step="1"
+            required
+            placeholder="yasinizi giriniz"
+          />
+        </td>
+      </tr>
+      <td>Email</td>
+        <td>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Emailinizi giriniz"
+          />
+        </td>
+      </tr>
+      <td>Fotograf Ekle</td>
+        <td>
+          <input
+            type="file"
+            id="dosya"
+            name="dosya"
+            placeholder="fotograf ekle"
+          />
+        </td>
+      </tr>
+      <td>Urun Sifresi</td>
+        <td>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required maxlength="8"
+            placeholder="sifre giriniz max 8 karekter"
+          />
+        </td>
+      </tr>
+    </table>
+    </fieldset><br>
+    
+      <fieldset>
+        <legend>Diger Bilgiler</legend>
+        <table border="1">
+          <tr>
+            <th colspan="2">Mesleki Deneyim</th>
+          </tr>
+          <tr>
+            <td>Sektore Giris Tarihi</td>
+            <td>
+              <input type="date" id="tarih" name="tarih" value="2010-05-05">
+            </td>
+          </tr>
+          <tr>
+            <td>Sektor Deneyim</td>
+            <td>
+              <label>
+                <input type="radio" id="yil1" name="yil1" value="1">1-5 yil
+              </label><br>
+              <label >
+                <input type="radio" id="yil2" name="yil2" value="2">6-10 yil
+              </label><br>
+               <label >
+                <input type="radio" id="yil3" name="yil3" value="3">11 yil ve uzeri
+              </label><br>
+            </td>
+          </tr>
+          <tr>
+            <td>Programlama Dilleri</td>
+            <td>
+              <select size="2" multiple name="dil" id="dil">
+                <option value="1" selected>Java</option>
+                <option value="2">Python</option>
+                <option value="3">C++</option>
+                <option value="4">Javascript</option>
+                <option value="5">C#</option>
+              </select>
+              </td>
+          </tr>
+        </table>
+      </fieldset><br>
+      <fieldset>
+        <legend> Sozlesme Kopyasi</legend>
+        <textarea readonly name="sozlesme" id="sozlesme" cols="50" rows="10">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo distinctio enim nisi nam, dolorem, nobis molestias fuga porro assumenda ex asperiores accusantium optio adipisci sapiente tenetur minima neque magni ullam.
+
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem facere earum repudiandae ut suscipit velit laborum accusantium magnam beatae quibusdam, fugiat non dolorem, laudantium impedit sequi similique! Excepturi, expedita ab!
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit neque consequatur libero ea optio ratione illo debitis, id, itaque repellendus enim in est voluptatem! Eligendi maxime libero id iure iusto?
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quasi, ipsa assumenda distinctio eaque neque consequuntur doloribus unde aliquam adipisci dolore impedit soluta, harum nesciunt repudiandae labore possimus, et autem!
+        </textarea><br><br>
+        <input type="checkbox" id="kabul" name="kabul" required > Sozlesmeyi okudum ve kabul ediyorum...
+      </fieldset><br>
+      <fieldset>
+        <legend>Mail listesi</legend><br>
+      
+        <input class="ads" type="radio" id="mliste1" name="mliste1"> Mail listesine katilmak <b><u>istiyorum</u></b><br><br>
+         
+        <input class="ads" type="radio" id="mliste2" name="mliste1">Mail listesine katilmak <b><u>istemiyorum</u></b>
+      </fieldset>
+  </body>
+</html>

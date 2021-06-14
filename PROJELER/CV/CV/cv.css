@@ -1,0 +1,43 @@
+* {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(12, 49, 119);
+}
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(229, 18, 67);
+}
+
+legend {
+  color: rgb(229, 18, 67);
+  padding: 10px;
+  font-size: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+img {
+  border-radius: 50%;
+  float: right;
+  margin-right: 20px;
+  display: block;
+  width: 20%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+ul {
+  margin-top: 2px;
+}
+li {
+  width: 900px;
+  margin: -5px;
+}
+.legend1 {
+  float: left;
+  padding: 0 0 10px 10px;
+}

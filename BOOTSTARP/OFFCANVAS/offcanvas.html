@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-LPvXVVAlyPoBSGkX8UddpctDks+1P4HG8MhT7/YwqHtJ40bstjzCqjj+VVVDhsCo"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="offcans.css" />
+    <title>OFFCANVAS</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <button
+            class="btn btn-primary fs-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            MENU
+            <h3 class="h3 text-danger bg-warning fw-bold">MONALISA</h3>
+          </button>
+          <p class="p m-5 text-center fs-4 fw-bold">
+            <span class="span fs-2 text-danger">M</span>onalisa ipsum dolor sit,
+            amet consectetur adipisicing elit. Natus nihil nesciunt expedita quo
+            quos eaque? Alias molestias officiis atque iste a facere, aliquid
+            sit sed nulla voluptate illo odio veritatis!
+          </p>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="h5 text-success fs-3" id="offcanvasExampleLabel">
+                Ilk Kaydirma Ozelligi
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h6 class="h6 text-danger fs-4">Sepet Uygulamasi</h6>
+              <ul>
+                <button class="e bg-success">ekle</button>
+                <button class="s bg-danger">Sil</button>
+              </ul>
+              <ul>
+                <li>
+                  <a class="a fs-5" href="">Siparisler</a>
+                </li>
+                <li>
+                  <a class="a fs-5" href="">Siparisler</a>
+                </li>
+                <li>
+                  <a class="a fs-5" href="">Siparisler</a>
+                </li>
+                <li>
+                  <a class="a fs-5" href="">Siparisler</a>
+                </li>
+                <li>
+                  <a class="a fs-5" href="">Siparisler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.js"></script>
+  </body>
+</html>

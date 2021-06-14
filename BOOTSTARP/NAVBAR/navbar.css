@@ -1,0 +1,42 @@
+.kapsam {
+  background-color: #f37121;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  font-family: sans-serif;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.nav-link {
+  color: #111d5e;
+  font-weight: bold;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .kapsam {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+ }
+  .nav-item {
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+}
+.nav-item:hover {
+  background-color: #111d5e;
+  padding-left: 20px;
+}
+.nav-link:hover {
+  color: #f37121;
+}
+.dropdown-menu {
+  background-color: #787ea1;
+  font-weight: bold;
+}

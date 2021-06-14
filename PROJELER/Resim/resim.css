@@ -1,0 +1,101 @@
+* {
+  background-color: rgb(99, 171, 195);
+}
+.container1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+}
+.container2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+}
+
+.div1 {
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  width: 500px;
+  background-image: url(photo-1622908044689-d9c33b011a33.jpeg);
+}
+.div2 {
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  width: 500px;
+  background-image: url(photo-1623081896756-606c15a4ea9a.jpeg);
+}
+.div3 {
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  width: 500px;
+  background-image: url(photo-1623116964819-e32373405634.jpeg);
+}
+.div4 {
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  width: 500px;
+  background-image: url(photo-1623128355693-bc50e47a8bcc.jpeg);
+}
+.btn {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid;
+  background-color: rgb(40, 90, 34);
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.ekle {
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: rgb(210, 19, 19);
+  background-color: white;
+}
+.ekle:hover {
+  background-color: darkgoldenrod;
+}
+
+.sil {
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: rgb(210, 19, 19);
+  background-color: white;
+}
+.sil:hover {
+  background-color: darkgoldenrod;
+}
+.degistir {
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: rgb(210, 19, 19);
+  background-color: white;
+}
+.degistir:hover {
+  background-color: darkgoldenrod;
+}
+.kaydet {
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: rgb(210, 19, 19);
+  background-color: white;
+}
+.kaydet:hover {
+  background-color: darkgoldenrod;
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: auto;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #adbec6;
+  border: none;
+  color: white;
+}
+.text {
+  width: 215px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: #30789f;
+  text-align: center;
+}
+.bg {
+  background: linear-gradient(to right, rgb(35, 152, 163), blue);
+  height: 1000px;
+}
+input {
+  text-align: center;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

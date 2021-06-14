@@ -1,0 +1,101 @@
+* {
+  font-family: sans-serif;
+}
+.baslik {
+  text-align: center;
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-image: url(https://images.unsplash.com/photo-1623166200179-63cb7945f95a?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+}
+
+body {
+  background-color: rgb(251, 153, 25);
+}
+
+.label {
+  margin-top: 3px;
+  border-radius: 1px;
+  padding: 5px;
+  cursor: pointer;
+  float: right;
+  background-color: rgb(78, 78, 195);
+  font-size: 20px;
+  color: white;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.search {
+  font-family: sans-serif;
+  font-size: 16px;
+  float: right;
+  padding: 5px;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+
+.label:hover {
+  background-color: cadetblue;
+}
+div ul {
+  padding-top: 5px;
+  margin-top: 40px;
+}
+div ul li {
+  padding: 5px;
+  list-style-type: none;
+  display: inline;
+}
+div ul li:hover {
+  background-color: rgb(98, 13, 178);
+}
+a {
+  padding: 5px;
+  margin-top: 20px;
+  color: rgb(98, 13, 178);
+  text-decoration: none;
+}
+
+.div3 {
+  background-size: 100% 100%;
+  margin-right: 20px;
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1623311374285-7326f1c37626?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+}
+.div4 {
+  margin-top: 10px;
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1623261382848-d49e3b3dda4a?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+}
+.div5 {
+  margin-right: 20px;
+  background-size: 100% 100%;
+  float: right;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1623015549221-b15babfbe6a0?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+}
+#p1 {
+  margin-top: 50px;
+}
+#p2 {
+  margin-top: 50px;
+}
+#p3 {
+  margin-top: 70px;
+}

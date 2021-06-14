@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.logo {
+  font-weight: bolder;
+}
+nav {
+  background-color: #0082e6;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  margin-right: 5px;
+  margin-right: 20px;
+  float: right;
+}
+nav ul li {
+  display: flex;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 2px;
+}
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+a.active,
+a:hover {
+  background-color: #1d72b2;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.img {
+  width: 100%;
+}
+.search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: -100px;
+  padding: 5px 20px;
+  color: white;
+  border: 1px solid;
+  border-radius: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.btnn {
+  padding: 5px 5px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 2px;
+  float: inline-end;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #1d72b2;
+  color: white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 66px;
+  margin-top: -100px;
+}
+.btnn:hover {
+  background-color: rgb(98, 27, 16);
+}

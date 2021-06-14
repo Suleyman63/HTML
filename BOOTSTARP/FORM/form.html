@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="Library/bootstrap-5.0.1-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="h1 text-center mt-5 text-danger fa-3x">KAYIT FORMU</h1>
+    <form class="row g-3 m-4 mt-4 bg-secondary">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="isim" class="form-label text-warning">Adiniz</label>
+          <input
+            id="isim"
+            type="text"
+            class="form-control"
+            placeholder="Veli"
+            aria-label="isim"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="soyisim" class="form-label text-warning fa-2"
+            >Soyadiniz</label
+          >
+          <input
+            id="soyisim"
+            type="text"
+            class="form-control"
+            placeholder="Kaynak"
+            aria-label="soyisim"
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label text-warning">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="@gmail.com"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label text-warning">Sifre</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="1234"
+        />
+      </div>
+      <div class="col-12">
+        <label for="Adres" class="form-label text-warning">Adres</label>
+        <input
+          type="text"
+          class="form-control"
+          id="Adres"
+          placeholder="Altin Sokak No: 12"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="sehir" class="form-label text-warning">Sehir</label>
+        <input
+          id="sehir"
+          type="text"
+          class="form-control"
+          id="Sehir"
+          placeholder="Ankara"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputState" class="form-label text-warning">Ulke</label>
+        <select id="inputState" class="form-select">
+          <option selected>Sec</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="check" />
+          <label class="form-check-label text-warning" for="check">
+            Onayla
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary mb-2 float-end">
+          Gonder
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

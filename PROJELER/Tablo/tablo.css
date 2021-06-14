@@ -1,0 +1,32 @@
+* {
+  background-color: rgb(212, 212, 51);
+}
+h1 {
+  text-align: center;
+  color: rgb(124, 28, 28);
+  margin-top: 30px;
+}
+.tablo {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+table td {
+  background-color: rgb(66, 43, 239);
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+table td:hover {
+  background-color: red;
+}
+table th {
+  background-color: cadetblue;
+  font-size: 15px;
+  padding: 15px;
+}
+table th:hover {
+  background-color: blueviolet;
+}
